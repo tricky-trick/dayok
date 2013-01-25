@@ -1,5 +1,7 @@
 package com.dayok.verifications;
 
+import com.dayok.webdriver.Base;
+
 public class FixedMenuAndLogoVerification extends Base {
 
 	public String verifyThatFixedMenuExists(){

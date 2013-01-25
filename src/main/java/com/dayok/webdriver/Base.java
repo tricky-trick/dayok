@@ -1,4 +1,4 @@
-package com.dayok.verifications;
+package com.dayok.webdriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,7 +7,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-import com.dayok.webdriver.FirefoxWebDriver;
 
 public class Base extends FirefoxWebDriver {
 	

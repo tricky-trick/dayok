@@ -2,7 +2,7 @@ package com.dayok.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.dayok.verifications.Base;
+import com.dayok.webdriver.Base;
 
 public class FixedMenuTest extends Base{
 

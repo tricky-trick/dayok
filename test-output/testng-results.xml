@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7063" started-at="2013-01-11T11:06:26Z" finished-at="2013-01-11T11:06:33Z">
+  <suite name="Default suite" duration-ms="10440" started-at="2013-01-25T20:11:44Z" finished-at="2013-01-25T20:11:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7063" started-at="2013-01-11T11:06:26Z" finished-at="2013-01-11T11:06:33Z">
+    <test name="Default test" duration-ms="10440" started-at="2013-01-25T20:11:44Z" finished-at="2013-01-25T20:11:55Z">
       <class name="com.dayok.tests.FixedMenuTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="init" is-config="true" duration-ms="2612" started-at="2013-01-11T11:06:26Z" finished-at="2013-01-11T11:06:29Z">
-        </test-method>
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="navigateToBaseUrl" is-config="true" duration-ms="1697" started-at="2013-01-11T11:06:29Z" finished-at="2013-01-11T11:06:31Z">
-        </test-method>
-        <test-method status="PASS" signature="checkLogo()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="checkLogo" duration-ms="250" started-at="2013-01-11T11:06:31Z" finished-at="2013-01-11T11:06:31Z">
-        </test-method>
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="navigateToBaseUrl" is-config="true" duration-ms="789" started-at="2013-01-11T11:06:31Z" finished-at="2013-01-11T11:06:32Z">
-        </test-method>
-        <test-method status="PASS" signature="checkSeachButton()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="checkSeachButton" duration-ms="434" started-at="2013-01-11T11:06:32Z" finished-at="2013-01-11T11:06:32Z">
-        </test-method>
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="navigateToBaseUrl" is-config="true" duration-ms="974" started-at="2013-01-11T11:06:32Z" finished-at="2013-01-11T11:06:33Z">
-        </test-method>
-        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="checkUrl" duration-ms="112" started-at="2013-01-11T11:06:33Z" finished-at="2013-01-11T11:06:33Z">
-        </test-method>
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dayok.tests.FixedMenuTest@792e6f00]" name="tearDown" is-config="true" duration-ms="182" started-at="2013-01-11T11:06:33Z" finished-at="2013-01-11T11:06:33Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+        <test-method status="PASS" signature="init()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="init" is-config="true" duration-ms="8051" started-at="2013-01-25T22:11:44Z" finished-at="2013-01-25T22:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="navigateToBaseUrl" is-config="true" duration-ms="2036" started-at="2013-01-25T22:11:52Z" finished-at="2013-01-25T22:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBaseUrl -->
+        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="checkUrl" duration-ms="215" started-at="2013-01-25T22:11:54Z" finished-at="2013-01-25T22:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="tearDown" is-config="true" duration-ms="125" started-at="2013-01-25T22:11:55Z" finished-at="2013-01-25T22:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dayok.tests.FixedMenuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
