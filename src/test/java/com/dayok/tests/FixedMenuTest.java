@@ -24,4 +24,11 @@ public class FixedMenuTest extends Base{
 		String error = repository.getFixedMenuVerification().verifyClickOnSeachButton();
 		Assert.assertTrue(error.length()==0,error);
 	}
+	
+
+	@Test
+	public void checkSeachButton1(){
+		String error = repository.getFixedMenuVerification().verifyClickOnSeachButton();
+		Assert.assertTrue(error.length()==0,error);
+	}
 }
