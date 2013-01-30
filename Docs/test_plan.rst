@@ -99,6 +99,7 @@ Automated test cases
 * Verify that 'Terms and conditions' link exists and is linked to proper pages
 * Verify that 'About us' link exists and is linked to proper pages
 * Verify that correct 'Copyright' title exists
+* Test
 
 Defects
 ========
