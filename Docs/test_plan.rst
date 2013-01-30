@@ -50,7 +50,7 @@ Security testing
 
 Security testing will include the next points:
 
- - Backend page is working under HTTPs protocol only on all browsers
+ - Backend page is working under HTTPs protocol only on all required browsers
  - Every role has proper set of features according to this role
  - SQL injections
  - Password weakness detection
@@ -89,6 +89,16 @@ Key Test Cases
 
 Automated test cases
 =====================
+
+* Verify that logo exists and link to the main page
+* Verify that services, services_food, services_serve, services_fun tab exist on the top bar and link to proper pages
+* Verify that 'Search form' and 'Search button' exist and works as expected
+* Verify that facebook and vk links exist and work as expected
+* Verify that 'window bar' exists
+* Verify that services, services_food, services_serve, services_fun tab exist on the 'window menu bar' and link to proper pages
+* Verify that 'Terms and conditions' link exists and is linked to proper pages
+* Verify that 'About us' link exists and is linked to proper pages
+* Verify that correct 'Copyright' title exists
 
 Defects
 ========
