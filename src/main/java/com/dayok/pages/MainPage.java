@@ -12,15 +12,23 @@ public class MainPage  extends FirefoxWebDriver{
 	}
 	
 	public WebElement getHeader(){
-		return driver.findElement(By.xpath("//*[@id='header']"));
+		return driver.findElement(By.id("header"));
 	}
 	
 	public WebElement getFixedMenu(){
-		return driver.findElement(By.xpath("//*[@id='floatingbar']"));
+		return driver.findElement(By.id("floatingbar"));
 	}
 	
 	public WebElement getSeachButton(){
-		return driver.findElement(By.xpath("//*[@id='searchButton']"));
+		return driver.findElement(By.id("searchButton"));
+	}
+	
+	public WebElement getServicesMenu(){
+		return driver.findElement(By.xpath("//*[@id='nav']//a[contains(@href,'services.php')]"));
+	}
+	
+	public WebElement getSearchForm(){
+		return driver.findElement(By.id("brand"));
 	}
 
 }

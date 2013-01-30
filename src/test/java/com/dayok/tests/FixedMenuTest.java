@@ -25,10 +25,12 @@ public class FixedMenuTest extends Base{
 		Assert.assertTrue(error.length()==0,error);
 	}
 	
-
 	@Test
-	public void checkSeachButton1(){
-		String error = repository.getFixedMenuVerification().verifyClickOnSeachButton();
+	public void checkSearchBrand(){
+		repository.getMainPage().getSearchForm().click();
+		repository.getMainPage().getSearchForm().sendKeys("house");
+		repository.getMainPage().getSeachButton().click();
+		String error = repository.getBrandPageVerification().verifyThatBrandNameIsCorrect();
 		Assert.assertTrue(error.length()==0,error);
 	}
 }
