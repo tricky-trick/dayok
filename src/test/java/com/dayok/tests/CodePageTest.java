@@ -10,7 +10,7 @@ public class CodePageTest extends Base{
 	@Test
 	public void checkCodeSendMsg(){
 		repository.getMainPage().getServicesMenu().click();
-		repository.getListPage().getBrandName().click();
+		repository.getListPage().getBrandName("HOUSE").click();
 		repository.getBrandPage().getReceiveCodeButton().click();
 		repository.getBrandPage().getSendCodeButton().click();
 		String error = repository.getCodePageVerification().verifySendCodeMsg();

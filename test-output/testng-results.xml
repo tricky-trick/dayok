@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10440" started-at="2013-01-25T20:11:44Z" finished-at="2013-01-25T20:11:55Z">
+  <suite name="Default suite" duration-ms="54313" started-at="2013-02-01T20:09:07Z" finished-at="2013-02-01T20:10:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10440" started-at="2013-01-25T20:11:44Z" finished-at="2013-01-25T20:11:55Z">
-      <class name="com.dayok.tests.FixedMenuTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="init" is-config="true" duration-ms="8051" started-at="2013-01-25T22:11:44Z" finished-at="2013-01-25T22:11:52Z">
+    <test name="Default test" duration-ms="54313" started-at="2013-02-01T20:09:07Z" finished-at="2013-02-01T20:10:01Z">
+      <class name="com.dayok.tests.CheckBrandsNameTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.dayok.tests.CheckBrandsNameTest@3295cfbe]" name="init" is-config="true" duration-ms="8119" started-at="2013-02-01T22:09:07Z" finished-at="2013-02-01T22:09:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="navigateToBaseUrl" is-config="true" duration-ms="2036" started-at="2013-01-25T22:11:52Z" finished-at="2013-01-25T22:11:54Z">
+        <test-method status="PASS" signature="navigateToBaseUrl()[pri:0, instance:com.dayok.tests.CheckBrandsNameTest@3295cfbe]" name="navigateToBaseUrl" is-config="true" duration-ms="3973" started-at="2013-02-01T22:09:15Z" finished-at="2013-02-01T22:09:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToBaseUrl -->
-        <test-method status="PASS" signature="checkUrl()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="checkUrl" duration-ms="215" started-at="2013-01-25T22:11:54Z" finished-at="2013-01-25T22:11:55Z">
+        <test-method status="PASS" signature="checkBrandsName()[pri:0, instance:com.dayok.tests.CheckBrandsNameTest@3295cfbe]" name="checkBrandsName" duration-ms="41595" started-at="2013-02-01T22:09:19Z" finished-at="2013-02-01T22:10:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dayok.tests.FixedMenuTest@3295cfbe]" name="tearDown" is-config="true" duration-ms="125" started-at="2013-01-25T22:11:55Z" finished-at="2013-01-25T22:11:55Z">
+        </test-method> <!-- checkBrandsName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dayok.tests.CheckBrandsNameTest@3295cfbe]" name="tearDown" is-config="true" duration-ms="614" started-at="2013-02-01T22:10:00Z" finished-at="2013-02-01T22:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.dayok.tests.FixedMenuTest -->
+      </class> <!-- com.dayok.tests.CheckBrandsNameTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

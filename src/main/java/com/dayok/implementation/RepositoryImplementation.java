@@ -5,6 +5,7 @@ import com.dayok.pages.CodePage;
 import com.dayok.pages.ListPage;
 import com.dayok.pages.MainPage;
 import com.dayok.pages.BrandPage;
+import com.dayok.verifications.BrandsNameVerification;
 import com.dayok.verifications.CodePageVerification;
 import com.dayok.verifications.FixedMenuAndLogoVerification;
 import com.dayok.verifications.BrandPageVerification;
@@ -37,5 +38,9 @@ public class RepositoryImplementation implements Repository {
 
 	public CodePageVerification getCodePageVerification() {
 		return new CodePageVerification();
+	}
+
+	public BrandsNameVerification getBrandsNameVerification() {
+		return new BrandsNameVerification();
 	}
 }

@@ -10,7 +10,7 @@ public class BrandPageTest extends Base{
 	@Test
 	public void checkBrandName(){
 		repository.getMainPage().getServicesMenu().click();
-		repository.getListPage().getBrandName().click();
+		repository.getListPage().getBrandName("HOUSE").click();
 		String error = repository.getBrandPageVerification().verifyThatBrandNameIsCorrect();
 		Assert.assertTrue(error.length()==0,error);
 		
